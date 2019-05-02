@@ -11,7 +11,7 @@ The source code file itself is properly commented, so there's no need to add muc
 ```bash
 > spark-submit --class advancedExerc.MovieSimilarities MS.jar 50
 ```
-This is what would be shown, in the case of the Star Wars movie, which corresponds to the argument 50 above (movie ID): <p align="center"> <img src="/img/sc.PNG"/>
+This is what would be shown in the case of the Star Wars movie, which corresponds to the argument 50 above (movie ID): <p align="center"> <img src="/img/sc.PNG"/>
   
 We can see that the results are fairly accurate, as the first recommendations correspond to two other films in the Star Wars saga, with which the similarity **score** is quite high.  Moreover, our recommendator will only recommend films with an average rating above the 3.75 threshold, so it will recommend only decent-quality films.
 
